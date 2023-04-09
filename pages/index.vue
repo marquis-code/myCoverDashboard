@@ -568,7 +568,7 @@
 
 <script>
 useHead({
-  title: "MyCover Dashboard",
+  title: "Dashboard",
   meta: [{ name: "description", content: "My cover amazing dashboard." }],
   bodyAttrs: {
     class: "test",

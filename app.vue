@@ -7,7 +7,7 @@
 
 <script>
 useHead({
-  title: "My App",
+  title: "Dashboard",
   meta: [{ name: "description", content: "My amazing site." }],
   bodyAttrs: {
     class: "test",
