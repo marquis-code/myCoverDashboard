@@ -10,7 +10,11 @@
       </div>
       <div class="md:flex items-center md:space-x-6">
         <div class="hidden md:flex">
-          <img class="h-10 w-10" src="@/assets/img/notificationBell.svg" alt="" />
+          <img
+            class="h-10 w-10"
+            src="@/assets/img/notificationBell.svg"
+            alt=""
+          />
         </div>
         <div class="hidden md:flex">
           <img
@@ -563,6 +567,14 @@
 </template>
 
 <script>
+useHead({
+  title: "MyCover Dashboard",
+  meta: [{ name: "description", content: "My cover amazing dashboard." }],
+  bodyAttrs: {
+    class: "test",
+  },
+  script: [{ innerHTML: "console.log('Hello world')" }],
+});
 export default {};
 </script>
 

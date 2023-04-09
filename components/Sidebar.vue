@@ -20,7 +20,7 @@
           <router-link
             :class="[$route.name === 'index' ? 'text-green-400' : 'text-white']"
             to="/"
-            class="flex items-center gap-2 rounded-lg py-2 space-x-3 text-white"
+            class="flex items-center gap-2 rounded-lg py-2 space-x-3"
           >
             <img src="@/assets/img/get_started.svg" alt="" />
 
@@ -37,7 +37,7 @@
               $route.name === 'analytics' ? 'text-green-400' : 'text-white',
             ]"
             to="/analytics"
-            class="flex items-center gap-2 rounded-lg py-2 space-x-3 text-white"
+            class="flex items-center gap-2 rounded-lg py-2 space-x-3"
           >
             <img src="@/assets/img/analytics.svg" alt="" />
 
@@ -53,7 +53,7 @@
           <router-link
             :class="[$route.name === 'sales' ? 'text-green-400' : 'text-white']"
             to="/sales"
-            class="flex items-center gap-2 rounded-lg py-2 space-x-3 text-white"
+            class="flex items-center gap-2 rounded-lg py-2 space-x-3"
           >
             <img src="@/assets/img/sales.svg" alt="" />
 
@@ -65,7 +65,7 @@
               $route.name === 'policies' ? 'text-green-400' : 'text-white',
             ]"
             to="/policies"
-            class="flex items-center gap-2 rounded-lg py-2 space-x-3 text-white"
+            class="flex items-center gap-2 rounded-lg py-2 space-x-3"
           >
             <img src="@/assets/img/policies.svg" alt="" />
 
@@ -77,7 +77,7 @@
               $route.name === 'products' ? 'text-green-400' : 'text-white',
             ]"
             to="/products"
-            class="flex items-center gap-2 rounded-lg py-2 space-x-3 text-white"
+            class="flex items-center gap-2 rounded-lg py-2 space-x-3"
           >
             <img src="@/assets/img/products.svg" alt="" />
 
@@ -89,7 +89,7 @@
               $route.name === 'customers' ? 'text-green-400' : 'text-white',
             ]"
             to="/customers"
-            class="flex items-center gap-2 rounded-lg py-2 space-x-3 text-white"
+            class="flex items-center gap-2 rounded-lg py-2 space-x-3"
           >
             <img src="@/assets/img/customer.svg" alt="" />
 
@@ -99,7 +99,7 @@
           <router-link
             :class="[$route.name === 'users' ? 'text-green-400' : 'text-white']"
             to="/users"
-            class="flex items-center gap-2 rounded-lg py-2 space-x-3 text-white"
+            class="flex items-center gap-2 rounded-lg py-2 space-x-3"
           >
             <img src="@/assets/img/users.svg" alt="" />
 

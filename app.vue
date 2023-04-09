@@ -6,6 +6,14 @@
 </template>
 
 <script>
+useHead({
+  title: "My App",
+  meta: [{ name: "description", content: "My amazing site." }],
+  bodyAttrs: {
+    class: "test",
+  },
+  script: [{ innerHTML: "console.log('Hello world')" }],
+});
 import Sidebar from "@/components/Sidebar.vue";
 export default {
   name: "Dashboard",

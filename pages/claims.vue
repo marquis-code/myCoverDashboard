@@ -284,10 +284,10 @@
       v-if="showClaimModal"
       class="backdrop backdrop-blur-sm overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex"
     >
-      <div class="absolute top-10 right-0 md:ml-32">
+      <div class="absolute top-10 md:ml-32">
         <img
           src="@/assets/img/close.svg"
-          class="cursor-pointer"
+          class="cursor-pointer hidden md:block"
           @click="showClaimModal = !showClaimModal"
           alt=""
         />
@@ -299,7 +299,7 @@
       >
         <img
           src="@/assets/img/close.svg"
-          class="cursor-pointer"
+          class="cursor-pointer md:hidden"
           @click="showClaimModal = !showClaimModal"
           alt=""
         />

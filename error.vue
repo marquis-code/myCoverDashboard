@@ -34,35 +34,16 @@
         </svg>
 
         <h1
-          class="
-            mt-6
-            text-2xl
-            font-bold
-            tracking-tight
-            text-gray-900
-            sm:text-4xl
-          "
+          class="mt-6 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl"
         >
           Uh-oh!
         </h1>
 
-        <p class="mt-4 text-gray-500">We can't find that page.</p>
+        <p class="mt-4 text-gray-500">We can't find that page 🥺.</p>
         <div>
           <nuxt-link
             to="/"
-            class="
-              mt-3
-              inline-block
-              rounded
-              bg-green-500
-              px-6
-              py-2
-              text-sm
-              font-medium
-              text-white
-              hover:bg-green-700
-              focus:outline-none focus:ring
-            "
+            class="mt-3 inline-block rounded bg-green-500 px-6 py-2 text-sm font-medium text-white hover:bg-green-700 focus:outline-none focus:ring"
           >
             Go Back Home
           </nuxt-link>
